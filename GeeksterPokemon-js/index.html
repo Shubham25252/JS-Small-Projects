@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GeeksterPok</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="font-sans">
@@ -17,7 +17,7 @@
         </header>
         <div class="flex justify-between items-center mb-8">
             <div>
-                <img src="/assets/img/pokemon-filter.gif" class="w-48" alt="pokemon-filter">
+                <img src="pokemon-filter.gif" class="w-48" alt="pokemon-filter">
                 <div class="flex space-x-4">
                     <select id="type"
                         class="p-2 rounded-lg bg-white border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300">
@@ -27,13 +27,13 @@
                     <button id="filter"
                         class="p-2 rounded-lg bg-blue-500 text-white shadow-lg hover:bg-blue-600 transition-all duration-300">Filter</button>
                     <button class="shadow-lg border rounded-lg">
-                        <a href="/index.html"><img src="/assets/img/reset.jpg" class="rounded-lg h-10 w-10"
+                        <a href="index.html"><img src="reset.jpg" class="rounded-lg h-10 w-10"
                                 alt="reset"></a>
                     </button>
                 </div>
             </div>
             <div>
-                <img src="/assets/img/pokemon-search.gif" class="w-24 h-24" alt="pokemon-search">
+                <img src="pokemon-search.gif" class="w-24 h-24" alt="pokemon-search">
                 <input id="search" type="text" placeholder="Search Pokémon"
                     class="p-2 rounded-lg border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300" />
             </div>
@@ -45,7 +45,7 @@
 
         <!-- Display when no Pokémon match the search or filter criteria -->
         <div id="notFound" class="notFound mt-5 flex relative items-center justify-center">
-            <img src="/assets/img/pikachu-pokemon-say-NO.gif" class="h-[40vh]" alt="">
+            <img src="pikachu-pokemon-say-NO.gif" class="h-[40vh]" alt="">
             <div class="absolute top-[70%] left[50%] text-3xl text-center font-bold text-gray-700">
                 <h1>Not Found !</h1>
                 <br>
@@ -54,7 +54,7 @@
         </div>
     </div>
 
-    <script src="/assets/script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
